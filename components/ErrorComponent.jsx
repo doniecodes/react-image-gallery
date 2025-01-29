@@ -6,7 +6,7 @@ const ErrorElement = ({error}) => {
   return (
     <div className='error-div'>
         <h1>Error: {error.message}</h1>
-        <p>Status: {error.status}, {error.statusText}</p>
+        <p>Status: {error.status}</p>
         <p></p>
     </div>
   )

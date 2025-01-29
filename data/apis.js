@@ -5,7 +5,7 @@ export async function getImages (url) {
         console.log(res)
       if(!res.ok){
         throw {
-          message : "Could not find images, try refreshing",
+          message : "Could not find images, try refreshing.",
           statusText: res.statusText,
           status: res.status,
         }
